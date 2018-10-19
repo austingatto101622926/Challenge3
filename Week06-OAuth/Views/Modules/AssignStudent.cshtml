@@ -1,0 +1,19 @@
+﻿@model Week06_OAuth.Models.Module
+
+@{
+	ViewBag.Title = "Assign Student";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form action="" method="post">
+	<input type="number" name="id" value="@Model.ModuleId" hidden/>
+	<h2>Assign Student to Module: @Model.ModuleId - @Model.MacAddress</h2>
+	<select name="student">
+		@foreach (var item in ViewData["Students"] as List<Week06_OAuth.Models.AspNetUser>)
+		{
+			<option value="@item.Id">@item.UserName</option>
+		}
+	</select>
+	<input type="submit" value="Save" class="btn btn-default" />
+</form>
+

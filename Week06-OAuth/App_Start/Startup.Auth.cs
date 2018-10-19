@@ -60,8 +60,8 @@ namespace Week06_OAuth
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "653766520378-558tjmqbarnmne02g5i0b3s3ibfpajdp.apps.googleusercontent.com",
-                ClientSecret = "Up1TNyOHm25mViSHjUnxcTs5"
+                ClientId = "148160360002-irvc2adttu3qg1j114hgepjpgukt2so5.apps.googleusercontent.com",
+                ClientSecret = "AlUhTaCd0T7HAqF4kr_ecmiN"
             });
         }
     }

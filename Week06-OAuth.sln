@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week06-OAuth", "Week06-OAuth\Week06-OAuth.csproj", "{3C990468-0928-4419-A854-9AB4F49798AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeResit", "Week06-OAuth\ChallengeResit.csproj", "{3C990468-0928-4419-A854-9AB4F49798AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
